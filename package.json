@@ -1,0 +1,45 @@
+{
+  "name": "readmeforge",
+  "version": "0.1.0",
+  "description": "Generate a polished README from any repo in one command.",
+  "type": "module",
+  "bin": {
+    "readmeforge": "./bin/readmeforge.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "readme",
+    "ai",
+    "cli",
+    "documentation",
+    "openai",
+    "anthropic",
+    "claude"
+  ],
+  "author": "Aravind Pilla <47084007+krish9219@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krish9219/readmeforge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krish9219/readmeforge/issues"
+  },
+  "homepage": "https://github.com/krish9219/readmeforge#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ora": "^8.1.0"
+  }
+}
